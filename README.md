@@ -1,6 +1,6 @@
 ## market_regime_classification_hmm
 
-The project uses Hidden Markov model to classify market regimes based on index closing price data. Layers on the training data are determined by breaking the trend based on local minima and maxima.
+The project uses Hidden Markov model to classify market regimes based on index closing price data. States on the training data are determined by breaking the trend based on local minima and maxima.
 
 To reproduce results:
 
