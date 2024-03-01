@@ -17,7 +17,7 @@ if __name__ == '__main__':
     st_scaler = StandardScaler()
     BENCH_NAME, factors_raw = get_factors_moex_97()
     print("Data is loaded!")
-    END_TRAIN = '2008-01-01'
+    END_TRAIN = '2007-01-01'
 
     factors = factors_raw.resample('W-FRI').last().ffill()
     raw_features = custom_feature_generator(factors,
